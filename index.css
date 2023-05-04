@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.navigation-bar {
+    height: 214px;
+    width: auto;
+    background-color: #356cc3;
+}
+
+.upbar {
+    height: 36px;
+    background-color: #1f4c7f;
+
+}
+
+.middlebar {
+    height: 128px;
+    background-color: #255792;
+}
+
+.lastbar {
+    height: 50px;
+    background-color: #356cc3;
+}
+
+.content>.middlebar-left {
+    /* float: left; */
+    position: absolute;
+    padding-top: 25px;
+}
+
+.content>.middlebar-right {
+    /* float: left; */
+    float: right;
+    padding-top: 40px;
+}
+
+.content {
+    height: 36px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* .upbar-left .item:before {
+    content: "|";
+    float: left;
+    color: #cdd6e3;
+} */
+
+
+/* .item:first-child:before {
+    display: none;
+} */
+
+/* .upbar-left em {
+    font-style: normal;
+} */
+
+li {
+    list-style: none;
+}
+
+.upbar-left ul li a {
+
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #cdd6e3;
+    /* line-height: 10px; */
+}
+
+.upbar-left ul li {
+
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style-type: none;
+    text-align: center;
+    line-height: 36px;
+    border-right: 1px solid #FFF;
+}
+
+.upbar-right {
+    margin-left: 160px;
+    float: left;
+}
+
+.upbar-right ul li a {
+    float: left;
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #e3b31a;
+    /* line-height: 10px; */
+}
+
+.upbar-right ul li {
+    float: left;
+    text-align: center;
+    line-height: 36px;
+}
+
+.upbar-right .lookupbtn {
+    float: right;
+}
+
+.dtli {
+    float: left;
+    /* padding-left: 40px; */
+    /* padding-right: 40px; */
+    line-height: 50px;
+    text-align: center;
+}
+
+.droplist .ddli {
+    front-size: 12px;
+}
+
+.navlist a {
+    display: block;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #fff1ec;
+}
+
+.navlist a:hover {
+    background: #255792;
+}
+
+.droplist {
+    background: #356cc3;
+    display: none;
+}
+
+.dtli:hover .droplist {
+    display: block;
+}
+
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    height: 464px;
+    width: 100%;
+    background: #f5f4f2;
+}
+
+.footer1 {
+    height: 325px;
+    width: auto;
+    background: #3163d1;
+}
+
+.footer1-content {
+    height: 325px;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.footer1-content-p1 {
+    float: left;
+    width: 340px;
+    margin-top: 73px;
+}
+
+.footer1-content-p1 ul li {
+    display: block;
+    padding-left: 5px;
+    padding-bottom: 10px;
+
+}
+
+.footer1-content-p1 a {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.footer1-content-p1-1 {
+    width: 170px;
+    float: left;
+}
+
+.footer1-content-p1-2 {}
+
+.right-frame {
+    float: right;
+    margin-top: 70px;
+}
+
+.footer1-content-p2 {
+    float: left
+}
+
+#MicroBlog {
+    width: 34px;
+    height: 35px;
+    background-image: url("./img/微博标志.png");
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.code1 {
+    display: none;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    background-image: url("./img/weibo.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    left: -66px;
+    bottom: 50px;
+}
+
+#MicroBlog:hover>.code1 {
+    display: block;
+}
+
+#WeChat {
+    width: 34px;
+    height: 32px;
+    background-image: url("img/微信.png");
+    margin-top: 5px;
+}
+
+.code2 {
+    display: none;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    background-image: url("img/WeChat.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    left: -66px;
+    bottom: 50px;
+}
+
+#WeChat:hover>.code2 {
+    display: block;
+}
+
+#yiban {
+    width: 34px;
+    height: 35px;
+    background-image: url("img/易班.png");
+}
+
+.right-frame ul li {
+    display: inline-block;
+}
+
+.right-frame-p1 {
+    float: right;
+    width: 360px;
+    margin-bottom: 10px;
+}
+
+.right-frame-p2 {
+
+    position: relative;
+    right: 0px;
+    margin-bottom: 7px;
+}
+
+.right-frame-p2 a {
+    font-size: 12px;
+    color: #fff1ec;
+}
+
+.typef {
+    font-size: 12px;
+    color: #fff1ec;
+    margin-bottom: 7px;
+}
+
+.footer2 {
+    height: 50px;
+    background: #244da3;
+}
+
+.footer .footer2-1 {
+    float: left;
+    margin: 0 auto;
+}
+
+.footer2 ul li {
+    display: inline-block;
+
+}
+
+.typef2 {
+    color: #ddcfc9;
+    font-size: 12px;
+}
+
+.body1 {
+    position: absolute;
+    top: 215px;
+    width: 100%;
+    height: 376px;
+    background: #ececec;
+}
+
+.body1-content {
+    height: 376px;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #1f4c7f;
+}
